@@ -1,6 +1,6 @@
-import React, { use } from "react";
+import React from "react";
 import { useState } from "react";
-import { useCountdown } from "../../hooks/useCountdown.jsx";
+import { useCountdown } from "../../hooks/useCountDown.jsx";
 import { IoClose } from "react-icons/io5";
 import { useAuth } from "../../context/AuthContext.jsx";
 import { useRef } from "react";
